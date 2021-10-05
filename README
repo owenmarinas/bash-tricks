@@ -1,1 +1,4 @@
-make life easy
+make vim great again
+
+curl https://raw.githubusercontent.com/owenmarinas/bash-tricks/main/bashrc -o ~/.bashrc
+curl https://raw.githubusercontent.com/owenmarinas/bash-tricks/main/vimrc -o ~/.vimrc
