@@ -11,4 +11,6 @@ export LSCOLOR=""
 # Customize Path
 export PATH=$HOME/bin:$PATH
 
-export PS1="\u@\h \w$
+
+export PS1="[\u@\h \W]\\$ "
+export PS2="> "
