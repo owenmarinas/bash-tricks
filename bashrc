@@ -11,6 +11,6 @@ export LSCOLOR=""
 # Customize Path
 export PATH=$HOME/bin:$PATH
 
-
-export PS1="[\u@\h \W]\\$ "
-export PS2="> "
+export PS1="\[\e[36m\]\W\[\e[m\]\[\e[32m\]\[\e[m\] $ "
+complete -C '/usr/local/bin/aws_completer' aws
+alias ll='ls -alF'
