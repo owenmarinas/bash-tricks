@@ -1,0 +1,206 @@
+version: 3
+profiles: []
+hotkeys:
+  toggle-window:
+    - Ctrl-Space
+  copy-current-path: []
+  scroll-to-bottom: []
+  ctrl-c:
+    - Ctrl-C
+  copy:
+    - Ctrl-Shift-C
+  paste:
+    - Ctrl-Shift-V
+    - Shift-Insert
+  select-all:
+    - Ctrl-Shift-A
+  clear: []
+  zoom-in:
+    - Ctrl-=
+    - Ctrl-Shift-=
+  zoom-out:
+    - Ctrl--
+    - Ctrl-Shift--
+  reset-zoom:
+    - Ctrl-0
+  home:
+    - Home
+  end:
+    - End
+  previous-word:
+    - Ctrl-Left
+  next-word:
+    - Ctrl-Right
+  delete-previous-word:
+    - Ctrl-Backspace
+  delete-next-word:
+    - Ctrl-Delete
+  search:
+    - Ctrl-Shift-F
+  pane-focus-all:
+    - Ctrl-Shift-I
+  restart-telnet-session: []
+  restart-ssh-session: []
+  launch-winscp: []
+  settings-tab: {}
+  settings:
+    - Ctrl-,
+  serial:
+    - Alt-K
+  restart-serial-session: []
+  new-window:
+    - Ctrl-Shift-N
+  new-tab:
+    - Ctrl-Shift-T
+  profile: {}
+  profile-selectors: {}
+  toggle-fullscreen:
+    - F11
+  close-tab:
+    - Ctrl-Shift-W
+  reopen-tab:
+    - Ctrl-Shift-T
+  toggle-last-tab: []
+  rename-tab:
+    - Ctrl-Shift-R
+  next-tab:
+    - Ctrl-Shift-Right
+    - Ctrl-Tab
+  previous-tab:
+    - Ctrl-Shift-Left
+    - Ctrl-Shift-Tab
+  move-tab-left:
+    - Ctrl-Shift-PageUp
+  move-tab-right:
+    - Ctrl-Shift-PageDown
+  rearrange-panes:
+    - Ctrl-Shift
+  duplicate-tab: []
+  explode-tab:
+    - Ctrl-Shift-.
+  combine-tabs:
+    - Ctrl-Shift-,
+  tab-1:
+    - Alt-1
+  tab-2:
+    - Alt-2
+  tab-3:
+    - Alt-3
+  tab-4:
+    - Alt-4
+  tab-5:
+    - Alt-5
+  tab-6:
+    - Alt-6
+  tab-7:
+    - Alt-7
+  tab-8:
+    - Alt-8
+  tab-9:
+    - Alt-9
+  tab-10:
+    - Alt-0
+  tab-11: []
+  tab-12: []
+  tab-13: []
+  tab-14: []
+  tab-15: []
+  tab-16: []
+  tab-17: []
+  tab-18: []
+  tab-19: []
+  tab-20: []
+  split-right:
+    - Ctrl-Shift-E
+  split-bottom:
+    - Ctrl-Shift-D
+  split-left: []
+  split-top: []
+  pane-nav-right:
+    - Ctrl-Alt-Right
+  pane-nav-down:
+    - Ctrl-Alt-Down
+  pane-nav-up:
+    - Ctrl-Alt-Up
+  pane-nav-left:
+    - Ctrl-Alt-Left
+  pane-nav-previous:
+    - Ctrl-Alt-[
+  pane-nav-next:
+    - Ctrl-Alt-]
+  pane-maximize:
+    - Ctrl-Alt-Enter
+  close-pane: []
+  switch-profile:
+    - Ctrl-Alt-T
+  profile-selector:
+    - Ctrl-Shift-T
+terminal:
+  searchOptions: {}
+  colorScheme:
+    name: Cobalt Neon
+    foreground: '#8ff586'
+    background: '#142838'
+    cursor: '#c4206f'
+    colors:
+      - '#142631'
+      - '#ff2320'
+      - '#3ba5ff'
+      - '#e9e75c'
+      - '#8ff586'
+      - '#781aa0'
+      - '#8ff586'
+      - '#ba46b2'
+      - '#fff688'
+      - '#d4312e'
+      - '#8ff586'
+      - '#e9f06d'
+      - '#3c7dd2'
+      - '#8230a7'
+      - '#6cbc67'
+      - '#8ff586'
+  fontSize: 16
+  customColorSchemes:
+    - name: Homebrew
+      foreground: '#00ff00'
+      background: '#000000'
+      cursor: '#23ff18'
+      colors:
+        - '#000000'
+        - '#bfbfbf'
+        - '#00a600'
+        - '#999900'
+        - '#e500e5'
+        - '#b200b2'
+        - '#00a6b2'
+        - '#bfbfbf'
+        - '#666666'
+        - '#bfbfbf'
+        - '#00d900'
+        - '#e5e500'
+        - '#00d0ff'
+        - '#e500e5'
+        - '#00e5e5'
+        - '#e5e5e5'
+  pasteOnMiddleClick: false
+  copyOnSelect: true
+  bracketedPaste: false
+  warnOnMultilinePaste: false
+ssh:
+  knownHosts: []
+configSync:
+  parts: {}
+  token: >-
+    af416c67c411859ee2e8adadf98d78672c4a79868e547859dcfbed3355e2fcb198ce4753a762e087b5f22190d038b4a607186de8fdb785c7ed3179febeba25d4
+clickableLinks: {}
+appearance:
+  frame: full
+hacks: {}
+enableWelcomeTab: false
+pluginBlacklist:
+  - linkifier
+profileDefaults: {}
+electronFlags:
+  - - force_discrete_gpu
+    - '0'
+enableAutomaticUpdates: false
