@@ -2,4 +2,4 @@ make vim great again
 
 curl https://raw.githubusercontent.com/owenmarinas/bash-tricks/main/bashrc -o ~/.bashrc
 curl https://raw.githubusercontent.com/owenmarinas/bash-tricks/main/vimrc -o ~/.vimrc
-curl https://github.com/owenmarinas/bash-tricks/blob/main/tabby-config.yaml -o ~/.config/tabby/config.yaml
+curl https://raw.githubusercontent.com/owenmarinas/bash-tricks/main/tabby-config.yaml -o ~/.config/tabby/config.yaml
